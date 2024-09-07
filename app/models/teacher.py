@@ -1,8 +1,7 @@
 from pydantic import BaseModel
 
 class Teacher(BaseModel):
-    id:int
     name:str
     code:str
-    subjetc:Subject
+    subject_id:int
     semester:int

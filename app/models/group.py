@@ -3,6 +3,6 @@ from pydantic import BaseModel
 class Group(BaseModel):
     code:str
     semester:int
-    student:Student
+    student_id:int
     schedule:str
-    subject:str
+    subject_id:int
